@@ -1,0 +1,20 @@
+{
+  "name": "Progetto-JavaScript-Advanced-di-Felice-Bocchini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.3",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
