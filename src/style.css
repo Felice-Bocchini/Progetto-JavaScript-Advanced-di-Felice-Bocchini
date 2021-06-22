@@ -1,11 +1,10 @@
-html {
-  height: 100%;
-}
+
 
 body {
-  background-image: url(image.jpg);
+
+  background-image: url("../dist/e9a1149d251ab14eb304f93db20e6a32.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover ;
   font-family: 'Nobile', sans-serif;
   font-weight: 300;
   font-size: 21px;
@@ -21,7 +20,7 @@ div#mia_mappa {
 }
 
 caption{
-  font-family: 'Nobile-Bold', sans-serif;
+  font-family: 'Nobile', sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: black;
@@ -29,7 +28,7 @@ caption{
 
 @font-face {
   font-family: 'Nobile';
-  src: url('Nobile-Regular.woff') format('woff');
+  src: url('../dist/2b78e65beb0ead42d327.woff') format('woff');
   font-style: normal;
   font-weight: 300;
 }
@@ -55,7 +54,7 @@ caption{
 .container {
   display: flex;
   justify-content: space-around;
-  height: auto;
+
 }
 
 /**
@@ -139,4 +138,102 @@ button:hover {background-position: right center;}
 .table_dark1 tr:hover td,
 .table_dark2 tr:hover td {
   text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 722px) and (max-width: 767px){
+
+
+.header-container{
+  font-size: 15px;
+}
+
+
+
+div#mia_mappa {
+  width: 250px;
+  height: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  outline: none;
+
+  color: black;
+  padding: 10px 15px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  border-width: thick;
+}
+
+.header{
+  text-align: center;
+  width: auto;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+#prova {
+
+  padding: 15px 20px;
+  margin: 15px 30px;
+  border-radius: 10px;
+
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1221px) {
+
+
+
+
+  .header-container{
+    font-size: 20px;
+  }
+
+
+  div#mia_mappa {
+    width: 250px;
+    height: 200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    outline: none;
+
+    color: black;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    border-width: thick;
+  }
+
+  .header{
+    text-align: center;
+    width: auto;
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  #prova {
+
+    padding: 15px 20px;
+    margin: 15px 30px;
+    border-radius: 10px;
+
+  }
 }
