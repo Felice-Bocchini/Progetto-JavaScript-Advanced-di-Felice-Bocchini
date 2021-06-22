@@ -189,6 +189,26 @@ input {
 
 }
 
+@media (min-width: 1222px) {
+
+
+  .header{
+    text-align: center;
+    width: auto;
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  #prova {
+
+    padding: 15px 20px;
+    margin: 15px 30px;
+    border-radius: 10px;
+
+  }
+
+}
+
 
 
 @media (min-width: 768px) and (max-width: 1221px) {
