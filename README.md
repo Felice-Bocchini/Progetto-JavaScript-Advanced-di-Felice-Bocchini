@@ -19,4 +19,6 @@ Felice Bocchini - [Instagram](https://www.instagram.com/felixkou07/) - felice.bo
 
 
 Link al progetto: https://github.com/Felice-Bocchini/Progetto-JavaScript-Advanced-di-Felice-Bocchini
+
+
 Link all'app: https://javascript-advanced.web.app/
